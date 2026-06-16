@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.content-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.product-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.product-item__title {
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0%;
+}
+
+.product-item__paragraph {
+    font-family: Mulish;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #7D7987;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.product-item__btn--light {
+    width: 200px;
+    height: 65px;
+    opacity: 1;
+    border: 1.4px solid #458FF6;
+    border-radius: 30px;
+    color: #458FF6;
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    justify-content: center;
+    vertical-align: middle;
+}
