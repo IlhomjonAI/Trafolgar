@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Mulish;
 }
 
 .container {
@@ -21,6 +22,94 @@
 
 .items-center {
     align-items: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.header-link__navbar a {
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: Mulish;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1F1534;
+
+}
+
+.hero-link__describtion h2 {
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0%;
+}
+
+.hero-link__describtion p {
+    font-family: Mulish;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #7D7987;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.hero-link__describtion a {
+    width: 200px;
+    height: 60px;
+    opacity: 1;
+    font-family: Mulish;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #fff;
+    background-color: #4089ED;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 56px;
+
+}
+
+.benefits-link__benefits-item {
+    width: 350px;
+    height: 354px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 39px;
+    gap: 50px;
+    box-shadow: 10px 40px 50px 0px #E5E9F666;
+
+}
+
+.benefits-link__benefits-item h4 {
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    color: #000;
+}
+
+.benefits-link__benefits-item p {
+    font-family: Mulish;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #7D7987;
+
 }
 
 .product-item:nth-child(even) {
@@ -60,4 +149,151 @@
     letter-spacing: 0%;
     justify-content: center;
     vertical-align: middle;
+}
+
+li {
+    list-style: none;
+}
+
+.feedbacks-container hr {
+    color: white;
+    background-color: white;
+    border: 1.5px solid white;
+}
+
+.feedbacks-container {
+    margin-top: 130px;
+    margin-bottom: 130px;
+    opacity: 1;
+    border-radius: 24px;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    padding: 64px 118px 64px 118px;
+    color: white;
+}
+
+.feedbacks-container p {
+    font-family: Mulish;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+
+.news__item {
+    background-color: white;
+    box-shadow: 10px 40px 50px 0px #E5E9F666;
+
+}
+
+.feedbacks-container h4 {
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    letter-spacing: 0%;
+}
+
+.news-item h4 {
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: black;
+    margin-top: 20px;
+}
+
+.news__item p {
+    font-family: Mulish;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.news__item a {
+    font-family: Mulish;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #4089ED;
+    text-decoration: none;
+}
+
+.news__item a img {
+    width: 14.14285755157476;
+    height: 9.000000000000034;
+    top: 5056px;
+    left: 374.57px;
+    opacity: 1;
+    margin-left: 20px;
+}
+
+.news__item div {
+    padding: 15px;
+}
+
+.news .btna {
+    width: 200;
+    height: 56;
+    top: 5180px;
+    left: 700px;
+    opacity: 1;
+    border-radius: 55px;
+    border-width: 1.4px;
+    border: 1.4px solid #458FF6;
+    color: #458FF6;
+    text-decoration: none;
+    padding: 10px 40px 10px 40px;
+    margin-top: 100px;
+
+}
+
+footer {
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    margin-top: 100px;
+}
+
+.footer-link img {
+    background-color: transparent;
+}
+
+.footer-link {
+    padding: 100px;
+}
+
+.footer-link h5 {
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    color: white;
+}
+
+.footer-link h2 {
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+}
+
+.footer-link p,
+a {
+    font-family: Mulish;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-link a {
+    margin-top: 20px;
 }
